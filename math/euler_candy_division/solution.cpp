@@ -51,7 +51,7 @@ int main(){
         for(int bit = 0; bit < m; bit++)
             if(get_bit(state, bit)){
                 cnt++;
-                sum -= b[bit];
+                sum -= (b[bit] + 1);
             }
         if(cnt%2 == 0)
             res = (res + nCk(sum, sum + m - 1))%MOD;

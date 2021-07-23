@@ -45,7 +45,7 @@ And $D$ is number of $T$ such that:
 
 $T_0 + T_1 + ... + T_{m-1} = N$  
  
-and $A_i \leq T_i$ and $A_j = B_j$ $(0 \leq j < m)$.
+and $A_i \leq T_i$ and $A_j = B_j + 1$ $(0 \leq j < m)$.
 
 Easily, the answer is $U - D$.
 
