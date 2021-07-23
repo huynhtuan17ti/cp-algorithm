@@ -59,8 +59,4 @@ we can logically see that the answer is $R_{even} - R_{odd}$, where $R_{even}$ i
 Observantly that $M \leq 16$ so we can use **brute force** to check all state and using **Euler's phi** to calculate *combinatorial* due to the module value is a prime.
 
 ## Time complexity
-<<<<<<< HEAD
 $O(N + logN*2^M)$
-=======
-$O(N + logN*2^M)$
->>>>>>> a2a0a30ff5850bf844be327b0a063a50873691d7
