@@ -34,9 +34,9 @@ Now our problem looks similar to the basic problem *Euler's Candies Division*. A
 ### Subproblem 2
 Now we some to solve $T_i \leq B_i$. Using *mathematical compensation*, let's consider there's just only one $i$ that has $B_i$, (call this position is $j$). 
 
-Call $U = \{(T_0, T_1, ..., T_{m-1})| \sum T = N,\  A_i \leq T_i\  \forall i \in [0, m-1] \}$
+Call $U = {(T_0, T_1, ..., T_{m-1})| \sum T = N,\  A_i \leq T_i\  \forall i \in [0, m-1] }$
 
-Call $D = \{(T_0, T_1, ..., T_{m-1})| \sum T = N,\  A_i \leq T_i\  \forall i \in [0, m-1], \exists j\ A_j = B_j + 1 \}$
+Call $D = {(T_0, T_1, ..., T_{m-1})| \sum T = N,\  A_i \leq T_i\  \forall i \in [0, m-1], \exists j\ A_j = B_j + 1 }$
 
 Easily, the answer is $U - D$.
 
