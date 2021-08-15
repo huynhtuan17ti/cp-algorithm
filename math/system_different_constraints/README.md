@@ -7,5 +7,5 @@ We construct a n-vertex graph (vertext $i$ represents variable $x_i$). For each 
 If the graph has negative cycle, there's no solution. Else, create a virtual vertex $s$, add edge with weight $0$ from $s$ to every $x_i$, the solution is the shortest path from $s$ to $n$ vertexs.
 
 ### Reference
-- [Is the Information Reliable](http://poj.org/problem?id=2983)
+- [Problem](http://poj.org/problem?id=2983)
 - [MIT lecture](https://courses.csail.mit.edu/6.006/spring11/lectures/lec17.pdf)
