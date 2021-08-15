@@ -45,13 +45,13 @@ int nCk(int n, int k){
 int Lucas(ll n, ll k){
     int kr, nr;
     int res = 1;
-    do{
+    while(k != 0){
         kr = k%MOD;
         nr = n%MOD;
         res = 1LL*res*nCk(nr, kr)%MOD;
         n /= MOD;
         k /= MOD;
-    }while(kr != 0);
+    }
     return res;
 }
 
