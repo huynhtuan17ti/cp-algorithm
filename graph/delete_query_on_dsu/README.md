@@ -1,5 +1,5 @@
 ### Delete query on dsu
-[Deleting from a data structure](https://cp-algorithms.web.app/data_structures/deleting_in_log_n.html)
+[cp-alogirthm article](https://cp-algorithms.web.app/data_structures/deleting_in_log_n.html)
 
 | Example problem   | Solution  |
 | ------            | --------  |
